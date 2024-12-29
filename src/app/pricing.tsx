@@ -5,10 +5,10 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 
 
 const PRICING_OPTIONS = [
-  "hey",
-  "hi  ",
-  "hi",
-  "hey",
+  "hey!",
+  "hi!  ",
+  "hi!",
+  "hey!",
 ];
 
 export function Pricing() {
