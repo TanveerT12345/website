@@ -5,10 +5,10 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 
 
 const PRICING_OPTIONS = [
-  "25 Classes",
-  "200 Learning hours  ",
-  "Expert-led instruction",
-  "Certificate of completion",
+  "hey",
+  "hi  ",
+  "hi",
+  "hey",
 ];
 
 export function Pricing() {
