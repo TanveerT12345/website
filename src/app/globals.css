@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .py-12 {
+    padding-top: 2rem; /* Reduce the padding from 3rem (12) to 2rem (8) */
+    padding-bottom: 2rem; /* Reduce the padding from 3rem (12) to 2rem (8) */
+  }
+  
+  .mb-8 {
+    margin-bottom: 1rem; /* Reduce the margin from 2rem (8) to 1rem (4) */
+  }
+  
+  .pt-8 {
+    padding-top: 2rem; /* Add a smaller top padding for the "Where We Go" section if needed */
+  }
+
+  .text-outline-white {
+    color: white;
+    text-shadow: 
+      -2px -2px 0 #000, 
+      2px -2px 0 #000, 
+      -2px 2px 0 #000, 
+      2px 2px 0 #000,
+      -2px 0 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      0 2px 0 #000;
+  }
+
+  .white-box {
+    background-color: white;
+    padding: 10px;
+    width: 150px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+    display: inline-block;
+    margin-top: 8px;
+  }
+
+  .text-outline-black {
+    color: black;
+    text-shadow: 
+      -2px -2px 0 #ffffff, 
+      2px -2px 0 #ffffff, 
+      -2px 2px 0 #ffffff, 
+      2px 2px 0 #ffffff, 
+      -2px 0 0 #ffffff, 
+      2px 0 0 #ffffff, 
+      0 -2px 0 #ffffff, 
+      0 2px 0 #ffffff, 
+  }
+  
+  
+  

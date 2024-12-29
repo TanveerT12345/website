@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import { Layout, FixedPlugin } from "@/components";
+import { Layout } from "@/components";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -10,10 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Course Details Page",
-  description:
-    "Introducing Tailwind Course Details Page, a comprehensive and user-friendly course details template designed using Tailwind CSS and Material Tailwind.",
-};
+  title: "Kappa Theta Pi @ UNC",
+  description: "New Kappa Theta Pi @ UNC website. Created by Tanveer Thethi.",
+}
 
 export default function RootLayout({
   children,
@@ -23,17 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          defer
-          data-site="YOUR_DOMAIN_HERE"
-          src="https://api.nepcha.com/js/nepcha-analytics.js"
-        ></script>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/ktp_logo.png" type="image/png" />
       </head>
       <body className={roboto.className}>
         <Layout>
           {children}
-          <FixedPlugin />
         </Layout>
         <link
           rel="stylesheet"
@@ -46,3 +39,4 @@ export default function RootLayout({
     </html>
   );
 }
+
